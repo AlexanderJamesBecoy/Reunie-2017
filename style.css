@@ -1,0 +1,55 @@
+/*
+Theme Name: Reunie-2017
+Theme URI: http://github.com/AlexanderJamesBecoy/Reunie-2017
+Author: Alexander James Becoy and Joey Blankendaal
+Author URI: http://www.github.com/AlexanderJamesBecoy
+Version: 1.0
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+/* General Layout */
+div.container {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+.site-header {
+	border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 2px solid #999;
+}
